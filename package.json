@@ -1,5 +1,5 @@
 {
-  "name": "simple-corsproxy",
+  "name": "dummy-corsproxy",
   "description": "Proxy to access resources that lack the Access-Control-Allow-Origin * header",
   "version": "0.0.1",
   "homepage": "http://github.com/bmpvieira/simple-corsproxy",
@@ -18,12 +18,11 @@
   "keywords": [
     "cors",
     "proxy",
-    "server",
-    "heroku"
+    "server"
   ],
   "main": "index.js",
   "bin": {
-    "simple-corsproxy": "index.js"
+    "dummy-corsproxy": "index.js"
   },
   "scripts": {
     "start": "node index.js"

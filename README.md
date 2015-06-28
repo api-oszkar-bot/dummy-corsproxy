@@ -1,22 +1,23 @@
-simple-corsproxy
+dummy-corsproxy
 ==========
+
+Fork of [simple-corsproxy](https://github.com/bmpvieira/simple-corsproxy)
+Differencies:
+ - Forward of original request status and headers
+ - environment variable changed to PROXY_PORT
+
 > Proxy to access resources that lack the Access-Control-Allow-Origin * header
-
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/bmpvieira/simple-corsproxy.git)
-
-<!-- https://devcenter.heroku.com/articles/heroku-button -->
-<!-- http://expeditedssl.com/heroku-button-maker -->
 
 Install
 -------
-```$ npm install simple-corsproxy -g```
+```$ npm install dummy-corsproxy -g```
 
 Usage
 -----
 
 ```
 $ simple-corsproxy
-=> Listening on port: 8080 # or environment variable PORT
+=> Listening on port: 8080 # or environment variable PROXY_PORT
 ```
 
 Add the url to the proxy path, like:

@@ -16,7 +16,7 @@ Usage
 -----
 
 ```
-$ simple-corsproxy
+$ dummy-corsproxy
 => Listening on port: 8080 # or environment variable PROXY_PORT
 ```
 
@@ -29,4 +29,4 @@ http://localhost:8080/https://google.com
 
 License
 -------
-[MIT](https://raw.github.com/bmpvieira/simple-corsproxy/master/LICENSE)
+[MIT](https://raw.githubusercontent.com/korshunov/dummy-corsproxy/master/LICENSE)

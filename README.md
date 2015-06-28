@@ -1,10 +1,11 @@
 dummy-corsproxy
 ==========
 
-Fork of [simple-corsproxy](https://github.com/bmpvieira/simple-corsproxy)
+Fork of [simple-corsproxy](https://github.com/bmpvieira/simple-corsproxy) by [Bruno Vieira](https://github.com/bmpvieira)
 Differencies:
- - Forward of original request status and headers
+ - forward of original request status and headers
  - environment variable changed to PROXY_PORT
+ - console print
 
 > Proxy to access resources that lack the Access-Control-Allow-Origin * header
 

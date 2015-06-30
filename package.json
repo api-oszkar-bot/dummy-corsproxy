@@ -1,15 +1,15 @@
 {
   "name": "dummy-corsproxy",
   "description": "Proxy to access resources that lack the Access-Control-Allow-Origin * header",
-  "version": "0.0.1",
-  "homepage": "http://github.com/bmpvieira/simple-corsproxy",
+  "version": "0.0.2",
+  "homepage": "https://github.com/korshunov/dummy-corsproxy",
   "repository": {
     "type": "git",
-    "url": "git://github.com/bmpvieira/simple-corsproxy.git"
+    "url": "git://github.com/korshunov/dummy-corsproxy.git"
   },
   "author": {
-    "name": "Bruno Vieira",
-    "email": "mail@bmpvieira.com"
+    "name": "Fedor Korshunov",
+    "email": "mail@fedor.cc"
   },
   "license": "MIT",
   "dependencies": {

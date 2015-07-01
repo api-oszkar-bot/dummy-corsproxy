@@ -2,6 +2,7 @@ dummy-corsproxy
 ==========
 
 Fork of [simple-corsproxy](https://github.com/bmpvieira/simple-corsproxy) by [Bruno Vieira](https://github.com/bmpvieira)
+
 Differencies:
  - forward of original request status and headers
  - environment variable changed to PROXY_PORT
